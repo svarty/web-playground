@@ -1,0 +1,14 @@
+<% include ./partials/header %>
+
+<div class="ui center aligned container">
+<h1> Hello from INDEX </h1>
+
+<% gyms.forEach(function (gym){  %>
+
+<p> ime teretane je <%= gym.name %> </p>
+
+<% }); %>
+
+</div>
+
+<% include ./partials/footer %>
